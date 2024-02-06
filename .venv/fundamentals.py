@@ -40,6 +40,49 @@ print(course.find('y'))
 
 #print( python in course) => true
 
+#// gives you a whole number
+print (10 // 3)
+
+#/ gives you a floating number
+print (10/ 3)
+
+#moduolo operator
+print (10 % 3)
+
+#exponent operator
+print (10**3)
+
+#augmented operator
+x = 10
+x = x + 3
+x += 3 #this is the augumented operator
+
+#operator precedence (tells you which operator goes first - 'my dear aunt sally')
+x = 10 + 3 * 2
+#x = 16
+
+#comparison operator = >, <, >=, <=, == (equality operator), != (not equality operator)
+
+#logical operator (and (both expressions return true), or(at least one of the expression is true), not(inverts the value))
+price = 25
+print (price > 10 or price < 30)
+
+print (not price >10)
+
+#if stmts
+temp = 35
+if temp > 30:
+    print("it's a hot day") #have to use double quotes to tell Python there's an apostrophe in the string
+elif temp > 50:
+    print("it's a nice day")
+else:
+    print("it's cold")
+print("Done")
+#use indentaion to represent a block of cold - if stmts
+#no brackets needed
+
+
+
 
 
 
