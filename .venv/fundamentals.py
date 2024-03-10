@@ -82,6 +82,50 @@ print("Done")
 #no brackets needed
 
 
+weight = int(input("weight:" )) #turn the string into a number
+unit = input("(K)g or (L)bs: ")
+if (unit.upper()) == "K":
+    converted = weight / 0.45
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = weight * 0.45
+    print("Weight in Kgs " + str(converted)) #use 'str' function to turn the float into a string
+
+#to enter a new line, press shift + tab ; i.e.: the else stmt
+
+# can't do '+' with string and floats
+# can do i * '*"
+
+i = 1
+while i <= 5: #will keep running til it's no longer true
+    print(i)
+    i = i + 1
+
+i = 1
+while i <= 1_000: #makes code more readable, it's 1000
+    print(i)
+    i = i + 1
+
+i = 1
+while i <= 5: #will keep running til it's no longer true
+    print(i * '*')
+    i = i + 1
+
+#data types - primitive types
+1 #number
+1.1 #float
+True #boolean
+'a' #string
+
+#lists
+names = ["John", "bob", "Mary" ]
+print(names) #["John", "bob", "Mary"]
+print(names[0:2]) #["John", "bob"]
+
+
+
+
+
 
 
 
