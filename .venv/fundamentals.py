@@ -123,6 +123,45 @@ print(names) #["John", "bob", "Mary"]
 print(names[0:2]) #["John", "bob"]
 
 
+#add value
+numbers.insert(6, 4) #at the 6th index, add in 4
+
+#delete value
+numbers.remove(4) #removes the integer
+
+#remove all items
+numbers.clear() #makes list empty
+
+#check if the numbers exist
+print(10 in numbers) #check if 10 exists in number's array
+
+#check length
+print(len(numbers)) #len is a print in function; returns length
+
+numbers = [1,2,3,4,5]
+for item in numbers:
+    print(item)
+
+i = 0;
+while i < len(numbers): #have to grab each value from the while loop
+    print(numbers[i])
+
+#range function - generate a sequence of numbers
+numbers = range(5) #range(0, 5)
+for number in numbers:
+    print(number) #1,2,3,4,5
+
+numbers = range(5, 10)
+for number in numbers:
+    print(number) #5, 6, 7, 8 , 9, 10
+
+numbers = range(5, 10, 2)
+for number in numbers:
+    print(number) #5, 7, 9
+
+
+
+
 
 
 
