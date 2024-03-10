@@ -149,7 +149,7 @@ while i < len(numbers): #have to grab each value from the while loop
 #range function - generate a sequence of numbers
 numbers = range(5) #range(0, 5)
 for number in numbers:
-    print(number) #1,2,3,4,5
+    print(number) #0, 1,2,3,4,5
 
 numbers = range(5, 10)
 for number in numbers:
@@ -159,6 +159,13 @@ numbers = range(5, 10, 2)
 for number in numbers:
     print(number) #5, 7, 9
 
+# so can write range in the for loop
+for number in range(5, 10):
+    print(number)
+
+#tuples - can't be immutable; can't add, remove
+#has count and index
+#has magic methods
 
 
 
